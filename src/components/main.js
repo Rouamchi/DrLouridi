@@ -1,5 +1,4 @@
 import './Main.css'
-import imgCover from '../images/imgCover.jpeg'
 import imgSection from '../images/imgSection.png'
 import Galerie from './Galerie'
 import ToTopButton from './ToTopButton'
@@ -9,9 +8,11 @@ const Main = () => {
   return (
     <>
       <main>
-
         <section className='docname'>
-          <img src={imgCover} alt="" text='' />
+          <div className="bgImage hide-when-mobile">
+          </div>
+          <div className="bgImageMobile show-when-mobile">
+          </div>
           <div>Dr. LOURIDI Abderrahim Spécialiste en Psychiatrie
             <p style={{ color: 'white', fontFamily: 'arial' }}>Neuro-Psychiatre à Safi</p>
           </div>
@@ -21,7 +22,7 @@ const Main = () => {
           <div className='docinfo'>
             <p>Dr. LOURIDI Abderrahim Spécialiste en Psychiatrie à Safi.<br /></p>
             <br />
-            <p>Déplômé de faculté de médecine et de pharmacie de Rabat.<br />
+            <p>Diplômé de faculté de médecine et de pharmacie de Rabat.<br />
               Chef de service psychiatrie a hopital khouribga (1993-1996).<br />Chef de service psychiatrie a hopital Med V Safi (1996-2016). <br /></p>
             <br />
             <p>Si vous cherchez un psychiatre compétent à Safi, Dr Louridi est votre choix idéal.<br />Avec des décennies d'expérience, il est en mesure de diagnostiquer et de traiter une grande variété de troubles mentaux, qu'ils soient légers ou graves. <br />

@@ -8,7 +8,6 @@ const Home = () => {
     <>
       <Header />
       <Main/>
-      {/* <Main pageName="Home Page" designer="Full Designer"/> */}
       <ArrowUpwardIcon/>
       <Footer />
     </>
