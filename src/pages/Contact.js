@@ -51,7 +51,7 @@ const Contact = () => {
           <EmailIcon className='iconsContact' style={{ fontSize: 60 }} />
           <div>
             <h3 style={{ marginTop: '26px' }}>EMAIL</h3>
-            <p style={{ marginTop: '5px' }}>Abderrahimlouridi@gmail.com</p>
+            <p style={{ marginTop: '5px' }}>Abderrahimlouridi@gmail.com </p>
           </div>
         </div>
         <div className='contactCard'>
@@ -105,14 +105,14 @@ const Contact = () => {
           <EmailIcon className='iconsContact' style={{ fontSize: 40, marginTop:'3.5%' }} />
           <div>
             <h3 style={{ marginTop: '4%' }}>EMAIL</h3>
-            <p style={{ marginTop: '2%', marginBottom:'3%' }}>Abderrahimlouridi@gmail.com</p>
+            <p style={{ marginTop: '2%', marginBottom:'3%' }}>Abderrahimlouridi@gmail.com </p>
           </div>
         </div>
         <div className='contactCard'>
           <LocalPhoneIcon className='iconsContact' style={{ fontSize: 40, marginTop:'3.5%' }} />
           <div>
             <h3 style={{ marginTop: '6%', marginLeft: '5%' }}>TELEPHONE</h3>
-            <p style={{ marginTop: '4%', marginLeft: '2%', fontSize:'18px', marginBottom:'3%'}}> +212524461417</p>
+            <p style={{ marginTop: '4%', marginLeft: '2%', fontSize:'18px', marginBottom:'3%'}}> +212678572247</p>
           </div>
         </div>
         <div className='contactCard'>

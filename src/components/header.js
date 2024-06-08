@@ -3,7 +3,7 @@ import './Header.css'
 import ReactWhatsapp from 'react-whatsapp'
 import { FaFacebook, FaWhatsapp, FaEnvelope } from 'react-icons/fa'
 
-const header = () => {
+const Header = () => {
   return (
     <>
       <header className="hide-when-mobile mohammed">
@@ -67,7 +67,7 @@ const header = () => {
                 <FaFacebook className='iconsHeader' /> <a href="https://www.facebook.com/Lour56.A" target='_blank' rel="noreferrer">Facebook</a>
               </li>
               <li>
-                <FaEnvelope className='iconsHeader' /> <a href="https://mail.google.com/mail/u/0/?hl=fr#inbox?compose=CllgCJNrcwzNgbdQPPzktPVvlSScCBJBskccNTtVfhlDCGrgmKhfjBsvpgrSxMrbfGnwvsHPLZL" target='_blank' rel="noreferrer">
+                <FaEnvelope className='iconsHeader' /> <a href="https://mail.google.com/mail/u/0/?hl=fr#search/Abderrahimlouridi%40gmail.com?compose=new" target='_blank' rel="noreferrer">
                   Email</a>
               </li>
             </ul>
@@ -77,9 +77,9 @@ const header = () => {
 
 
 
-      <header style={{ backgroundColor: "#1b1b1b", paddingLeft: '4%' }} className="show-when-mobile">
+      <header style={{ backgroundColor: "black", paddingLeft: '4%' }} className="show-when-mobile">
         <h1 style={{width: '95%'}}>
-          <Link to="/">Dr. Abderrahim LOURIDI</Link>
+          <Link to="/">DARKAOUI ADVISORY</Link>
         </h1>
 
           <label className="absolute" For="burger">
@@ -156,7 +156,7 @@ const header = () => {
                 <a href="https://www.facebook.com/Lour56.A" target='_blank' rel="noreferrer">Facebook</a>
               </li>
               <li>
-                <a href="https://mail.google.com/mail/u/0/?hl=fr#inbox?compose=CllgCJNrcwzNgbdQPPzktPVvlSScCBJBskccNTtVfhlDCGrgmKhfjBsvpgrSxMrbfGnwvsHPLZL" target='_blank' rel="noreferrer">
+                <a href="https://mail.google.com/mail/u/0/?hl=fr#search/Abderrahimlouridi%40gmail.com?compose=new" target='_blank' rel="noreferrer">
                   Email</a>
               </li>
             </ul>
@@ -167,6 +167,6 @@ const header = () => {
   )
 }
 
-export default header
+export default Header
 
 

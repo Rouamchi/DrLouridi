@@ -1,5 +1,5 @@
 import './Main.css'
-import imgSection from '../images/imgSection.png'
+import imgSection from '../images/imgSection.jpeg'
 import Galerie from './Galerie'
 import ToTopButton from './ToTopButton'
 import Map from './Map'
@@ -37,7 +37,7 @@ const Main = () => {
         </section>
 
         <section>
-          <div className='doccabinet'>CABINET</div>
+          <div className='doccabinet'>Salle de Formation</div>
           <Galerie />
 
           <div className='docmap'>Obtenir l'itinéraire</div>
