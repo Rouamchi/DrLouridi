@@ -23,11 +23,11 @@ const Main = () => {
             <p>Dr. LOURIDI Abderrahim Spécialiste en Psychiatrie à Safi.<br /></p>
             <br />
             <p>Diplômé de faculté de médecine et de pharmacie de Rabat.<br />
-              Chef de service psychiatrie a hopital khouribga (1993-1996).<br />Chef de service psychiatrie a hopital Med V Safi (1996-2016). <br /></p>
+              Chef de service psychiatrie à hopital khouribga (1993-1996).<br />Chef de service psychiatrie à hopital Med V Safi (1996-2016). <br /></p>
             <br />
             <p>Si vous cherchez un psychiatre compétent à Safi, Dr Louridi est votre choix idéal.<br />Avec des décennies d'expérience, il est en mesure de diagnostiquer et de traiter une grande variété de troubles mentaux, qu'ils soient légers ou graves. <br />
               Le Docteur Louridi est connu pour son approche empathique et personnelle de la thérapie. Il comprend que chaque patient a des besoins différents et travaille individuellement avec chacun d'eux pour trouver la solution la mieux adaptée. Il propose également
-              une gamme de thérapies différentes, notamment la thérapie comportementale et cognitive, et la psychothérapie.</p>
+              une gamme de thérapies différentes, notamment la thérapie comportementale et cognitive.</p>
           </div>
 
           <div className='docinfoimg'>
