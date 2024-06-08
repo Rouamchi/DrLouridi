@@ -79,7 +79,7 @@ const Header = () => {
 
       <header style={{ backgroundColor: "black", paddingLeft: '4%' }} className="show-when-mobile">
         <h1 style={{width: '95%'}}>
-          <Link to="/">DARKAOUI ADVISORY</Link>
+          <Link to="/">Dr. Abderrahim LOURIDI</Link>
         </h1>
 
           <label className="absolute" For="burger">
